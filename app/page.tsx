@@ -40,7 +40,7 @@ export default function Home() {
           </h2>
           <div className="grid gap-6">
             <Card className="p-6">
-              <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+              <div className="flex p-6 flex-col md:flex-row items-start md:items-center justify-between gap-4">
                 <div>
                   <h3 className="text-xl font-semibold mb-2">
                     Escritório de Advocacia
@@ -58,14 +58,14 @@ export default function Home() {
                 </Link>
               </div>
 
-              <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+              <div className="flex p-6 flex-col md:flex-row items-start md:items-center justify-between gap-4">
                 <div>
                   <h3 className="text-xl font-semibold mb-2">
                     Escritório de Contabilidade
                   </h3>
                   <p className="text-muted-foreground">
-                    Site profissional para escritório de contalibilidade com design
-                    moderno e minimalista.
+                    Site profissional para escritório de contalibilidade com
+                    design moderno e minimalista.
                   </p>
                 </div>
                 <Link href="/contador">
@@ -84,7 +84,7 @@ export default function Home() {
       <footer className="py-8 px-4 border-t">
         <div className="max-w-4xl mx-auto flex justify-center">
           <Link
-            href="https://github.com/seu-usuario/seu-repositorio"
+            href="https://github.com/andredfaria"
             target="_blank"
             className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
           >
